@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?-ljfj9p');
+    src:url('../fonts/icomoon.eot?#iefix-ljfj9p') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?-ljfj9p') format('woff'),
+        url('../fonts/icomoon.ttf?-ljfj9p') format('truetype'),
+        url('../fonts/icomoon.svg?-ljfj9p#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color:#f9f9f9;
+    margin:0px;
+    padding:0px;
+    font-family:icomoon;
+    line-height:1.3em;
+    direction:rtl;
+}
+
+.container {
+    background-color:#f9f9f9;
+    margin:0px auto;
+    width:1300px;
+    height:500px;
+}
+
+.logo {
+    background-image:url(../images/lamore%20logo.png);
+    width:160px;
+    height:66px;
+    margin-right:20px;
+    margin-top:30px;
+}
+
+.all_index {
+    border:#000 solid 3px;
+    border-radius:20px;
+    background-color:#eae8e8;
+    width:900px;
+    height:200px;
+    margin:80px auto;  
+}
+
+.add {
+    width:400px;
+    height:190px;
+    text-align:center;
+}
+
+.add_img {
+    background-image:url(../images/add.png);
+    width:108px;
+    height:108px;
+    margin:26px auto;
+}
+
+.delete {
+    width:400px;
+    height:190px;
+    text-align:center;
+}
+
+.delete_img {
+    background-image:url(../images/delete.png);
+    width:128px;
+    height:128px;
+    margin:16px auto;
+}
+
+.all_halls {
+    padding:20px;
+    width:395px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.halls_reserved {
+    padding:20px;
+    width:395px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.hall_r {
+    width:360px;
+    height:150px;
+    padding:20px;
+    margin-top:16px;
+    border:#000 solid 2px;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+
+input {
+    width:120px;
+    height:40px;
+    color:#FFF;
+    background-color:#6f6b6b;
+    font-size:21px;
+    font-weight:bold;
+    margin-top:90px;
+}
+
+.all_reserve {
+    border:#eae8e8 solid 1px;
+    border-radius:15px;
+    width:860px;
+    height:928px; 
+    margin:80px auto;
+
+}
+
+.header_reserve {
+    background-color:#eae8e8;
+    border:#d9d7d7 solid 0px;
+    border-radius:15px 15px 0px 0px;
+    width:840px;
+    height:18px;
+    padding:10px;
+}
+
+.reserve_form {
+    padding:20px;
+    width:760px;
+    height:860px;
+    margin:-61px auto;
+}
+
+input {
+    width:330px;
+    height:26px;
+    padding:10px;
+    font-size:16px;
+    color:#09F;
+    border:0px;
+    background-color:#FFF;
+}
+
+input.bride_name {
+    width:248px;
+    height:26px;
+    padding:10px;
+    font-size:16px;
+    color:#09F;
+    border:0px;
+    background-color:#FFF;
+}
+
+input.date {
+    width:180px;
+    height:26px;
+    padding:10px;
+    font-size:16px;
+    color:#09F;
+    border:0px;
+    background-color:#FFF;
+}
+
+input[type="submit"] {
+    background-color: #00cccc;
+    color:#FFF;
+    float: left;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 129px;
+    width: 200px;
+    height: 45px;
+
+}
+
+.enter {
+    width:112px;
+    height:29px;
+    padding:10px;
+    font-size:20px;
+    float:left;
+    margin-left: 114px;
+    margin-top: 29px;
+    color:#FFF;
+    border:0px;
+    background-color:#545356;
+
+}
+
+textarea {
+    width:357px;
+    height:186px;
+    resize:none;
+    padding:10px;
+}
+
+.textarea {
+    margin-top:-21px;
+    margin-right:111px;
+}
+
+.left {float:left;}
+.right {float:right;}
+.clear {clear:both;}
+
+span {
+    display:inline-block;
+    font-size:32px;
+    font-weight:bold;
+    margin:auto;
+}
+
+span.desc {
+    margin-top:82px;
+}
+
+h2 {
+    display:inline-block;
+    margin-top: -4px;
+}
+
+label {
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+a {
+    text-decoration:none;
+    color:#000;
+
+}
